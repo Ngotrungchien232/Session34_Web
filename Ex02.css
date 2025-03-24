@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  /* taọ khoảng cách xung quanh nội dung sát với lề  */
+  margin: 20px;
+}
+
+h1 {
+  /* căn giữa nội dung của tiêu đề thẻ h1  */
+  text-align: center;
+}
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input,
+select,
+button {
+  padding: 5px;
+  font-size: 16px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

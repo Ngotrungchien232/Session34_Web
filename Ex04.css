@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+}
+div,
+ul {
+  text-align: center;
+}
+ul {
+  margin-top: 15px;
+}
+button {
+  margin-top: 15px;
+}

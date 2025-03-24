@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Ex05.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Danh sách nhân viên Rikkei</h1>
+      <!-- Form thêm nhân viên -->
+      <div class="form-group">
+        <input type="text" id="employee-name" placeholder="Tên nhân viên" />
+        <input type="text" id="employee-position" placeholder="Chức vụ" />
+        <button onclick="addEmployee()">Thêm nhân viên</button>
+      </div>
+      <!-- Bảng danh sách nhân viên -->
+      <table>
+        <thead>
+          <tr>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Chức vụ</th>
+          </tr>
+        </thead>
+        <tbody id="employee-list">
+          <!-- Các nhân viên sẽ được hiển thị ở đây -->
+        </tbody>
+      </table>
+    </div>
+    <script src="./Ex05.js"></script>
+  </body>
+</html>

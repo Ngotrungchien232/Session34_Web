@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+    <link rel="stylesheet" href="Ex01.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Register</h2>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email address" />
+        <div id="email-error" class="error"></div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+        <div id="password-error" class="error"></div>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirm-password"
+          placeholder="Enter your confirm password"
+        />
+        <div id="confirm-password-error" class="error"></div>
+      </div>
+      <button onclick="register()">REGISTER</button>
+    </div>
+    <script src="./Ex01.js"></script>
+  </body>
+</html>

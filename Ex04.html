@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <!-- Đặt định dạng ngôn ngữ cho trang là tiếng Việt -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tiêu đề trang -->
+    <title>Document</title>
+    <!-- Liên kết file CSS để tạo giao diện đẹp -->
+    <link rel="stylesheet" href="Ex04.css" />
+  </head>
+  <body>
+    <!-- Khung chính chứa Todo List -->
+    <div class="container">
+      <h1>Todo List</h1>
+      <!-- Tiêu đề của ứng dụng -->
+
+      <!-- Phần thêm công việc mới -->
+      <div class="form-group">
+        <input type="text" id="task-input" placeholder="Thêm việc cần làm..." />
+        <button onclick="addTask()">Thêm</button>
+      </div>
+
+      <!-- Nơi hiển thị danh sách công việc -->
+      <ul id="task-list"></ul>
+    </div>
+
+    <!-- Liên kết file JavaScript -->
+    <script src="./Ex04.js"></script>
+  </body>
+</html>

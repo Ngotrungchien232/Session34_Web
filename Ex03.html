@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Ex03.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Đăng Nhập</h2>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="login-email" placeholder="Nhập email của bạn" />
+        <div id="login-email-error" class="error"></div>
+      </div>
+      <div class="form-group">
+        <label for="password">Mật khẩu:</label>
+        <input
+          type="password"
+          id="login-password"
+          placeholder="Nhập mật khẩu của bạn"
+        />
+        <div id="login-password-error" class="error"></div>
+      </div>
+      <button onclick="login()">ĐĂNG NHẬP</button>
+      <div class="options">
+        <a href="#">Quên mật khẩu?</a> | <a href="#">Đăng ký</a>
+      </div>
+    </div>
+    <script src="./Ex03.js"></script>
+  </body>
+</html>
